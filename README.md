@@ -16,7 +16,6 @@ $ yarn
 
 - [Eslint](https://eslint.org/) to code pattern
 - [Typescript](https://www.typescriptlang.org/) to code typecheck
-- [Storybook](https://storybook.js.org/) to component visualization
 - [Vite](https://vitejs.dev/) to build
 
 ### What could be improved
@@ -25,3 +24,4 @@ $ yarn
 - Create design tokens
 - Create responsive breakpoints
 - Improve Typescript implementation
+- Write tests
