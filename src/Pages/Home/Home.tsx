@@ -1,6 +1,6 @@
 import { useRef, useEffect } from 'react'
 
-import Logo from '../../../public/Logo.svg'
+import Logo from '/public/Logo.svg'
 import { useNavigate } from "react-router-dom";
 import './Home.css'
 
@@ -17,7 +17,7 @@ const Home = () => {
       <img src={Logo}/>
       <button onClick={() => navigate('/game')} className='start_button'>Iniciar</button>
       <audio autoPlay loop ref={audioRef}>
-        <source src="../../../public/main-theme.mp3" type="audio/mp3">
+        <source src="/public/main-theme.mp3" type="audio/mp3">
         </source>
       </audio>
     </div>

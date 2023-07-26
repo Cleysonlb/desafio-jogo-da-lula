@@ -1,6 +1,6 @@
 
 import {useState, useEffect, useRef} from 'react'
-import Logo from '../../../public/Logo.svg'
+import Logo from '/public/Logo.svg'
 import ParticipantRow from '../../components/ParticipantRow/ParticipantRow'
 import ParticipantsBox from '../../components/ParticipantsBox/ParticipantsBox'
 import GameControl from '../../components/GameControl/GameControl'
@@ -48,11 +48,17 @@ function Game() {
             participantArr.splice(participants[p], 1);
           }
         }
-        setEliminatedParticipants(eliminatedArr)
-        setParticipants(participantArr)
-        setTotalPrize(eliminatedParticipants.length * prizePerParticipant)
-        setRoundType('vote')
-        setStartRound(false)
+        if(participants.length <= 1){
+          setPrizePerParticipant(Math.ceil(prizePerParticipant + totalPrize / participants.length))
+          setRoundVotes([])
+          setEndGame(true)
+        } else {
+          setEliminatedParticipants(eliminatedArr)
+          setParticipants(participantArr)
+          setTotalPrize(eliminatedParticipants.length * prizePerParticipant)
+          setRoundType('vote')
+          setStartRound(false)
+        }
       }, 2000);  
 
     }

@@ -1,4 +1,4 @@
-import Soldier from '../../../public/Soldier.svg'
+import Soldier from '/public/Soldier.svg'
 import { useNavigate } from "react-router-dom";
 
 import './GameControl.css'
