@@ -1,0 +1,40 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #111928;
+}
+
+.main_container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 72px;
+}
+
+.container_bg{
+  background-color: #374151;
+}
+
+.logo_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 89px;
+}
+
+.game_container{
+  max-width: 100%;
+  display: flex;
+  gap: 24px;
+}
+
+.middle_container{
+  max-width: 450px;
+  width: 100%;
+}
+
+.row{
+  padding: 16px 0;
+  &:not(last-child){
+    border-bottom: 1px solid #E5E7EB;
+  }
+}

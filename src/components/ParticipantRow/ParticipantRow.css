@@ -1,0 +1,26 @@
+.participant_row_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.participant_info{
+  display: flex;
+  align-items: center;
+}
+
+.avatar{
+  border-radius: 100%;
+}
+
+.name{
+  color: #F9FAFB;
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+.prize{
+  color: #F9FAFB;
+  font-size: 16px;
+  font-weight: bold;
+}

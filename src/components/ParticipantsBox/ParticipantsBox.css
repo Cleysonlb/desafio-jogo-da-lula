@@ -1,0 +1,44 @@
+.participants_box_container{
+  background-color: #374151;
+  max-width: 348px;
+  width: 100%;
+  border-radius: 8px;
+  padding: 16px 8px;
+}
+
+.participants_box_header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 16px;
+}
+
+.participants_box_title{
+  color: #F9FAFB;
+  font-weight: bold;
+}
+
+.participants_box_total{
+  > span {
+    color: #E5E7EB;
+  }
+}
+
+.empty_state_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 326px;
+}
+
+.empty_state_message{
+  color: #F9FAFB;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+.participants_list{
+  max-height: 328px;
+  overflow-y: scroll;
+}

@@ -1,0 +1,85 @@
+.game_control_container{
+  max-width: 450px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+}
+
+.game_control_header{
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.game_control_round_box{
+  background-color: #374151;
+  border-radius: 8px;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 113px;
+  width: 100%;
+}
+
+.game_control_title{
+  font-size: 16px;
+  color: #F9FAFB;
+}
+
+.game_control_subtitle{
+  font-size: 32px;
+  color: #F9FAFB;
+  font-weight: bold;
+}
+
+.game_control_prize_box{
+  background-color: #374151;
+  border-radius: 8px;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.game_control_action{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.game_control_button{
+  border: 0 none;
+  background-color: #ED1B76;
+  color: #FFFFFF;
+  font-weight: bold;
+  max-width: 152px;
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-top: -2px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  &:hover{
+    background-color: #c2145f;
+  }
+  &:disabled{
+    background-color: #6B7280;
+    &:hover{
+      background-color: #6B7280;
+    }
+  }
+}
+
+.game_control_footer{
+  background-color: #374151;
+  border-radius: 8px;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
