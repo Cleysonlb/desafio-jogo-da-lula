@@ -28,4 +28,4 @@ Hi there, this is my challenge, you can see online [here](https://main--bucolic-
 
 ### Issues
 
-- Locally the audio works but on netlify the audio is blocked
+- Locally the audio works but on the hosted site the browser blocks the audio
